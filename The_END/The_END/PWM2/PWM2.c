@@ -20,7 +20,7 @@ void initFastPWM2(){
 }
 
 
-void convertServo2(uint16_t analogIn2, uint8_t selChannel2){   //Conversion para servos
+void convert2(uint16_t analogIn2, uint8_t selChannel2){   //Conversion para servos
 	
 	switch(selChannel2){
 		case 1:

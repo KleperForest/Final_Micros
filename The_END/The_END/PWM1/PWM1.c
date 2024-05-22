@@ -1,9 +1,4 @@
-/*
- * PWM1.c
- *
- * Created: 5/22/2024 10:49:54 AM
- *  Author: samue
- */ 
+
 
 #include "PWM1.h"
 
@@ -67,7 +62,7 @@ void topValue(uint16_t top){
 }
 
 
-void convertServo(uint16_t analogIn, uint8_t selChannel){   //Conversion para servos
+void convert1(uint16_t analogIn, uint8_t selChannel){   //Conversion para servos
 	
 	switch(selChannel){
 		case 1:

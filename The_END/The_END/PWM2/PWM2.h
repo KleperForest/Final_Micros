@@ -14,7 +14,7 @@
 void initFastPWM2();
 
 
-void convertServo2(uint16_t analogIn2, uint8_t selChannel2);
+void convert2(uint16_t analogIn2, uint8_t selChannel2);
 
 
 
